@@ -16,7 +16,7 @@ bool approach1(string s){
     return true;
 }
 bool approach2(string s){
-    bool ar[26]={false};
+    bool ar[26];
     for (int i = 0; i <s.length() ; ++i) {
         ar[s[i]-'a']=true;
     }
