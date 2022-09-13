@@ -31,7 +31,7 @@ bool approach2(string s1,string s2){
 bool approach3(string s1,string s2) {
     if (s1.length() != s2.length())
         return false;
-    int a[26]={0};
+    int a[26];
     for(int i=0;i<s1.length();i++){
         a[s1[i]-'a']++;
     }
